@@ -72,26 +72,34 @@
     </nav>
 
     <main class="container-md">
-      <div class="d-flex justify-content-center">
-        Adopt your furbaby today here at First Come First Served Pet Adoption
+      <div class="d-flex justify-content-center mb-2">
+        <h1 class="text-center landing-heading display-4">
+          Adopt today at First Come First Served Pet Adoption
+        </h1>
       </div>
-      <div class="d-flex justify-content-center">
-        Welcome to the FIFO Pet adoption website! Here at FIFO we believe that
-        each pet should have a chance at their furever home. This vision
-        inspired us to create the first and premier FIFO pet adoption service.
-        This means that the first pet to come to the shelter is the first cat or
-        dog that gets adopted.
+      <div class="d-flex justify-content-center mb-4">
+        <p class="subtitle text-center">
+          Here at FIFO we believe that each pet should have a chance at their
+          furever home. This vision inspired us to create the first and premier
+          FIFO pet adoption service. This means that the first pet to come to
+          the shelter is the pet that gets adopted.
+        </p>
       </div>
-      <div class="d-flex justify-content-center">
-        To join the queue of adopters, enter your name below. When it's your
-        chance to adopt, get ready to take your furbaby home!
+      <div class="d-flex justify-content-center mb-4">
+        <p class="instructions text-center">
+          To join the queue of adopters, enter your name below. When it's your
+          chance to adopt, get ready to take your furbaby home!
+        </p>
       </div>
-      <div class="d-flex justify-content-center">
+      <div class="d-flex justify-content-center input">
         <input
           class="form-control form-control-lg name-input"
           type="text"
           placeholder="Enter your name to join the queue"
           aria-label="Enter your name to join the queue"
+          min="3"
+          max="100"
+          required
         />
       </div>
     </main>

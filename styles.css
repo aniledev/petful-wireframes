@@ -1,3 +1,29 @@
+body {
+  background: url("/dog-cat.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+main {
+  color: whitesmoke;
+}
+
+h1 {
+  width: 60%;
+}
+
+.subtitle,
+.instructions {
+  font-size: 1.2em;
+  width: 60%;
+}
+
+.form-control {
+  width: 29%;
+}
+
 .fixed-bottom {
   color: whitesmoke;
   font-size: medium;
