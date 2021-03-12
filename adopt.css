@@ -1,5 +1,5 @@
 main {
-  color: #1C1E22;
+  color: #1c1e22;
 }
 
 h1 {
@@ -23,4 +23,30 @@ p {
 img {
   width: 95%;
   height: 250px;
+}
+
+.btn {
+  background-color: #6e44ff;
+  border-color: #6e44ff;
+  color: whitesmoke;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #4f1fff;
+  border-color: #4f1fff;
+  color: whitesmoke;
+}
+
+.caret {
+  background-color: #494f5a;
+  border-color: #494f5a;
+  color: whitesmoke;
+}
+
+.caret:hover,
+.caret:focus {
+  background-color: #1c1e22;
+  border-color: #1c1e22;
+  color: whitesmoke;
 }
